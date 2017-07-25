@@ -1,7 +1,7 @@
 /**
  * Created by sonu on 22/7/17.
  */
-module.exports=function cart(oldCart) {
+module.exports=function Cart(oldCart) {
     this.items=oldCart.items || {};
     this.totalQty=oldCart.totalQty || 0;
     this.totalPrice=oldCart.totalPrice || 0;
@@ -20,7 +20,7 @@ module.exports=function cart(oldCart) {
     this.generateArray=function () {
         var arr=[];
         for (var id in this.items){
-            arr.push=this.items[id];
+            arr.push(this.items[id]);
         }
         return arr;
 
