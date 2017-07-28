@@ -2,7 +2,7 @@
  * Created by sonu on 25/7/17.
  */
 console.log("entered checkout.js");
-Stripe.setPublishableKey('pk_test_l5W4pTyqEeRabbJSl4uymG6L');
+Stripe.setPublishableKey('pk_test_ElzNKDIXsx5jv4Yvk68WzN3m');
 
 var $form=$('#checkout-form');
 
